@@ -1,0 +1,3 @@
+/home/shivam/dsa/Projects/shazam/build/CMakeFiles/shazam.dir
+/home/shivam/dsa/Projects/shazam/build/CMakeFiles/edit_cache.dir
+/home/shivam/dsa/Projects/shazam/build/CMakeFiles/rebuild_cache.dir
