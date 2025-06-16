@@ -273,6 +273,30 @@ matcher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/shazam.dir/build.make CMakeFiles/shazam.dir/matcher.cpp.s
 .PHONY : matcher.cpp.s
 
+mic_recorder.o: mic_recorder.cpp.o
+.PHONY : mic_recorder.o
+
+# target to build an object file
+mic_recorder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shazam.dir/build.make CMakeFiles/shazam.dir/mic_recorder.cpp.o
+.PHONY : mic_recorder.cpp.o
+
+mic_recorder.i: mic_recorder.cpp.i
+.PHONY : mic_recorder.i
+
+# target to preprocess a source file
+mic_recorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shazam.dir/build.make CMakeFiles/shazam.dir/mic_recorder.cpp.i
+.PHONY : mic_recorder.cpp.i
+
+mic_recorder.s: mic_recorder.cpp.s
+.PHONY : mic_recorder.s
+
+# target to generate assembly for a file
+mic_recorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shazam.dir/build.make CMakeFiles/shazam.dir/mic_recorder.cpp.s
+.PHONY : mic_recorder.cpp.s
+
 peak_finder.o: peak_finder.cpp.o
 .PHONY : peak_finder.o
 
@@ -348,6 +372,9 @@ help:
 	@echo "... matcher.o"
 	@echo "... matcher.i"
 	@echo "... matcher.s"
+	@echo "... mic_recorder.o"
+	@echo "... mic_recorder.i"
+	@echo "... mic_recorder.s"
 	@echo "... peak_finder.o"
 	@echo "... peak_finder.i"
 	@echo "... peak_finder.s"

@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/shazam.dir/main.cpp.o.d"
   "CMakeFiles/shazam.dir/matcher.cpp.o"
   "CMakeFiles/shazam.dir/matcher.cpp.o.d"
+  "CMakeFiles/shazam.dir/mic_recorder.cpp.o"
+  "CMakeFiles/shazam.dir/mic_recorder.cpp.o.d"
   "CMakeFiles/shazam.dir/peak_finder.cpp.o"
   "CMakeFiles/shazam.dir/peak_finder.cpp.o.d"
   "CMakeFiles/shazam.dir/third_party/kissfft/kiss_fft.c.o"

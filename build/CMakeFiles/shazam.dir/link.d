@@ -9,8 +9,10 @@ shazam: \
   CMakeFiles/shazam.dir/fingerprint.cpp.o \
   CMakeFiles/shazam.dir/matcher.cpp.o \
   CMakeFiles/shazam.dir/database.cpp.o \
+  CMakeFiles/shazam.dir/mic_recorder.cpp.o \
   CMakeFiles/shazam.dir/third_party/kissfft/kiss_fft.c.o \
   /usr/lib/libsndfile.so \
+  /usr/lib/libportaudio.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libm.so \
@@ -44,7 +46,10 @@ shazam: \
   /usr/lib/libmpg123.so.0 \
   /usr/lib/libmp3lame.so.0 \
   /usr/lib/libvorbis.so.0 \
-  /usr/lib/ld-linux-x86-64.so.2
+  /usr/lib/libasound.so.2 \
+  /usr/lib/libjack.so.0 \
+  /usr/lib/ld-linux-x86-64.so.2 \
+  /usr/lib/libpipewire-0.3.so.0
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o:
 
@@ -66,9 +71,13 @@ CMakeFiles/shazam.dir/matcher.cpp.o:
 
 CMakeFiles/shazam.dir/database.cpp.o:
 
+CMakeFiles/shazam.dir/mic_recorder.cpp.o:
+
 CMakeFiles/shazam.dir/third_party/kissfft/kiss_fft.c.o:
 
 /usr/lib/libsndfile.so:
+
+/usr/lib/libportaudio.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libstdc++.so:
 
@@ -136,4 +145,10 @@ CMakeFiles/shazam.dir/third_party/kissfft/kiss_fft.c.o:
 
 /usr/lib/libvorbis.so.0:
 
+/usr/lib/libasound.so.2:
+
+/usr/lib/libjack.so.0:
+
 /usr/lib/ld-linux-x86-64.so.2:
+
+/usr/lib/libpipewire-0.3.so.0:
