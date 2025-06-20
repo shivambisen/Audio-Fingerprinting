@@ -693,6 +693,9 @@ CMakeFiles/shazam.dir/main.cpp.o: /home/shivam/dsa/Projects/shazam/main.cpp \
   /usr/include/bits/sched.h \
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
+  /usr/include/bits/stat.h \
+  /usr/include/bits/statx-generic.h \
+  /usr/include/bits/statx.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-least.h \
   /usr/include/bits/stdint-uintn.h \
@@ -700,6 +703,7 @@ CMakeFiles/shazam.dir/main.cpp.o: /home/shivam/dsa/Projects/shazam/main.cpp \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
   /usr/include/bits/struct_rwlock.h \
+  /usr/include/bits/struct_stat.h \
   /usr/include/bits/thread-shared-types.h \
   /usr/include/bits/time.h \
   /usr/include/bits/time64.h \
@@ -724,6 +728,8 @@ CMakeFiles/shazam.dir/main.cpp.o: /home/shivam/dsa/Projects/shazam/main.cpp \
   /usr/include/bits/types/struct___jmp_buf_tag.h \
   /usr/include/bits/types/struct_itimerspec.h \
   /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/types/struct_statx.h \
+  /usr/include/bits/types/struct_statx_timestamp.h \
   /usr/include/bits/types/struct_timespec.h \
   /usr/include/bits/types/struct_timeval.h \
   /usr/include/bits/types/struct_tm.h \
@@ -862,6 +868,7 @@ CMakeFiles/shazam.dir/main.cpp.o: /home/shivam/dsa/Projects/shazam/main.cpp \
   /usr/include/linux/errno.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/sched/types.h \
+  /usr/include/linux/stat.h \
   /usr/include/linux/stddef.h \
   /usr/include/linux/types.h \
   /usr/include/locale.h \
@@ -874,6 +881,7 @@ CMakeFiles/shazam.dir/main.cpp.o: /home/shivam/dsa/Projects/shazam/main.cpp \
   /usr/include/sys/cdefs.h \
   /usr/include/sys/select.h \
   /usr/include/sys/single_threaded.h \
+  /usr/include/sys/stat.h \
   /usr/include/sys/types.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
@@ -1466,6 +1474,7 @@ shazam: /usr/lib/Scrt1.o \
   /usr/lib/libgcc_s.so \
   /usr/lib/libgcc_s.so.1 \
   /usr/lib/libm.so \
+  /usr/lib/libpqxx.so \
   /usr/lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o \
@@ -1475,7 +1484,16 @@ shazam: /usr/lib/Scrt1.o \
   /usr/lib/libasound.so.2 \
   /usr/lib/libc.so.6 \
   /usr/lib/libc_nonshared.a \
+  /usr/lib/libcom_err.so.2 \
+  /usr/lib/libcrypto.so.3 \
+  /usr/lib/libgssapi_krb5.so.2 \
   /usr/lib/libjack.so.0 \
+  /usr/lib/libk5crypto.so.3 \
+  /usr/lib/libkeyutils.so.1 \
+  /usr/lib/libkrb5.so.3 \
+  /usr/lib/libkrb5support.so.0 \
+  /usr/lib/liblber.so.2 \
+  /usr/lib/libldap.so.2 \
   /usr/lib/libm.so.6 \
   /usr/lib/libmp3lame.so.0 \
   /usr/lib/libmpg123.so.0 \
@@ -1484,17 +1502,21 @@ shazam: /usr/lib/Scrt1.o \
   /usr/lib/libopus.so.0 \
   /usr/lib/libpipewire-0.3.so.0 \
   /usr/lib/libportaudio.so \
+  /usr/lib/libpq.so.5 \
+  /usr/lib/libresolv.so.2 \
+  /usr/lib/libsasl2.so.3 \
   /usr/lib/libsndfile.so \
+  /usr/lib/libssl.so.3 \
   /usr/lib/libvorbis.so.0 \
   /usr/lib/libvorbisenc.so.2 \
   CMakeFiles/shazam.dir/audio_loader.cpp.o \
-  CMakeFiles/shazam.dir/database.cpp.o \
   CMakeFiles/shazam.dir/fft_processor.cpp.o \
   CMakeFiles/shazam.dir/fingerprint.cpp.o \
   CMakeFiles/shazam.dir/main.cpp.o \
   CMakeFiles/shazam.dir/matcher.cpp.o \
   CMakeFiles/shazam.dir/mic_recorder.cpp.o \
   CMakeFiles/shazam.dir/peak_finder.cpp.o \
+  CMakeFiles/shazam.dir/postgresql.cpp.o \
   CMakeFiles/shazam.dir/third_party/kissfft/kiss_fft.c.o
 
 
@@ -1516,7 +1538,13 @@ CMakeFiles/shazam.dir/audio_loader.cpp.o:
 
 /usr/lib/libvorbis.so.0:
 
+/usr/lib/libssl.so.3:
+
 /usr/lib/libsndfile.so:
+
+/usr/lib/libsasl2.so.3:
+
+/usr/lib/libresolv.so.2:
 
 /usr/lib/libportaudio.so:
 
@@ -1530,6 +1558,18 @@ CMakeFiles/shazam.dir/audio_loader.cpp.o:
 
 /usr/lib/libm.so.6:
 
+/usr/lib/libldap.so.2:
+
+/usr/lib/liblber.so.2:
+
+/usr/lib/libkeyutils.so.1:
+
+/usr/lib/libk5crypto.so.3:
+
+/usr/lib/libgssapi_krb5.so.2:
+
+/usr/lib/libcrypto.so.3:
+
 /usr/lib/libc_nonshared.a:
 
 /usr/lib/libc.so.6:
@@ -1541,6 +1581,8 @@ CMakeFiles/shazam.dir/audio_loader.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtendS.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o:
+
+/usr/lib/libpqxx.so:
 
 /usr/lib/libm.so:
 
@@ -1576,6 +1618,22 @@ CMakeFiles/shazam.dir/audio_loader.cpp.o:
 
 /home/shivam/dsa/Projects/shazam/matcher.cpp:
 
+/usr/include/sys/stat.h:
+
+/usr/include/linux/stat.h:
+
+/usr/include/bits/types/struct_statx_timestamp.h:
+
+/usr/include/bits/types/struct_statx.h:
+
+/usr/include/bits/struct_stat.h:
+
+/usr/include/bits/statx.h:
+
+/usr/include/bits/statx-generic.h:
+
+/usr/include/bits/stat.h:
+
 /home/shivam/dsa/Projects/shazam/main.cpp:
 
 /home/shivam/dsa/Projects/shazam/fingerprint.cpp:
@@ -1601,6 +1659,8 @@ CMakeFiles/shazam.dir/audio_loader.cpp.o:
 /usr/include/c++/14.2.1/bits/ostream_insert.h:
 
 /usr/include/c++/14.2.1/bits/move.h:
+
+/usr/lib/libcom_err.so.2:
 
 /usr/include/linux/errno.h:
 
@@ -1642,6 +1702,8 @@ CMakeFiles/shazam.dir/audio_loader.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h:
 
+CMakeFiles/shazam.dir/postgresql.cpp.o:
+
 /usr/include/c++/14.2.1/bits/locale_classes.h:
 
 /usr/include/c++/14.2.1/bits/concept_check.h:
@@ -1681,8 +1743,6 @@ CMakeFiles/shazam.dir/audio_loader.cpp.o:
 /usr/include/c++/14.2.1/bits/refwrap.h:
 
 /usr/include/bits/types/struct_timespec.h:
-
-CMakeFiles/shazam.dir/database.cpp.o:
 
 /usr/include/bits/waitflags.h:
 
@@ -1759,6 +1819,8 @@ CMakeFiles/shazam.dir/database.cpp.o:
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
 /usr/include/c++/14.2.1/bits/postypes.h:
+
+/usr/lib/libkrb5.so.3:
 
 /usr/include/c++/14.2.1/bits/basic_ios.tcc:
 
@@ -1948,6 +2010,8 @@ CMakeFiles/shazam.dir/database.cpp.o:
 
 /home/shivam/dsa/Projects/shazam/database.cpp:
 
+/usr/lib/libpq.so.5:
+
 /usr/include/c++/14.2.1/bits/functional_hash.h:
 
 /usr/include/bits/types/__locale_t.h:
@@ -2009,6 +2073,8 @@ CMakeFiles/shazam.dir/database.cpp.o:
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/lib/libkrb5support.so.0:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
 

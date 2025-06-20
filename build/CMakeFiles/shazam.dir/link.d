@@ -13,6 +13,7 @@ shazam: \
   CMakeFiles/shazam.dir/third_party/kissfft/kiss_fft.c.o \
   /usr/lib/libsndfile.so \
   /usr/lib/libportaudio.so \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libpqxx.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libm.so \
@@ -48,8 +49,21 @@ shazam: \
   /usr/lib/libvorbis.so.0 \
   /usr/lib/libasound.so.2 \
   /usr/lib/libjack.so.0 \
+  /usr/lib/libpq.so.5 \
   /usr/lib/ld-linux-x86-64.so.2 \
-  /usr/lib/libpipewire-0.3.so.0
+  /usr/lib/libpipewire-0.3.so.0 \
+  /usr/lib/libssl.so.3 \
+  /usr/lib/libcrypto.so.3 \
+  /usr/lib/libgssapi_krb5.so.2 \
+  /usr/lib/libldap.so.2 \
+  /usr/lib/libkrb5.so.3 \
+  /usr/lib/libk5crypto.so.3 \
+  /usr/lib/libcom_err.so.2 \
+  /usr/lib/libkrb5support.so.0 \
+  /usr/lib/libkeyutils.so.1 \
+  /usr/lib/libresolv.so.2 \
+  /usr/lib/liblber.so.2 \
+  /usr/lib/libsasl2.so.3
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o:
 
@@ -78,6 +92,8 @@ CMakeFiles/shazam.dir/third_party/kissfft/kiss_fft.c.o:
 /usr/lib/libsndfile.so:
 
 /usr/lib/libportaudio.so:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libpqxx.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/libstdc++.so:
 
@@ -149,6 +165,32 @@ CMakeFiles/shazam.dir/third_party/kissfft/kiss_fft.c.o:
 
 /usr/lib/libjack.so.0:
 
+/usr/lib/libpq.so.5:
+
 /usr/lib/ld-linux-x86-64.so.2:
 
 /usr/lib/libpipewire-0.3.so.0:
+
+/usr/lib/libssl.so.3:
+
+/usr/lib/libcrypto.so.3:
+
+/usr/lib/libgssapi_krb5.so.2:
+
+/usr/lib/libldap.so.2:
+
+/usr/lib/libkrb5.so.3:
+
+/usr/lib/libk5crypto.so.3:
+
+/usr/lib/libcom_err.so.2:
+
+/usr/lib/libkrb5support.so.0:
+
+/usr/lib/libkeyutils.so.1:
+
+/usr/lib/libresolv.so.2:
+
+/usr/lib/liblber.so.2:
+
+/usr/lib/libsasl2.so.3:
