@@ -7,6 +7,9 @@ This project is a minimal Shazam-style audio fingerprinting system built in **C+
 - Convert MP3 files to WAV automatically for processing.
 
 ---
+##  Demo 
+i will add soon
+---
 
 ## 🔧 Features
 
